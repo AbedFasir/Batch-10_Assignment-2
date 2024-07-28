@@ -1,0 +1,77 @@
+@media screen and (max-width: 576px) {
+   .hide {
+      display: none;
+   }
+   .menu {
+      display: block;
+   }
+   .container {
+      width: 92%;
+   }
+
+   .video {
+      top: 0px;
+      right: -20px;
+   }
+   .tutorial {
+      left: 0;
+   }
+
+   .banner-container {
+      flex-direction: column;
+      gap: 30px;
+   }
+
+   .flex-container {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 50px;
+   }
+
+   .habit-cards {
+      flex-direction: column;
+      gap: 40px;
+   }
+
+   .card {
+      margin: 0 auto;
+   }
+
+   .common-h {
+      font-size: 2.3rem;
+   }
+
+   .run-container {
+      flex-direction: column;
+      padding: 30px;
+   }
+
+   .run-content h1  {
+      font-size: 2.3rem;
+   }
+
+   .run-content button {
+      width: 100%;
+      margin-bottom: 30px;
+   }
+
+   .member-pics {
+      grid-template-columns: repeat(1, 1fr);
+   }
+
+   .calculator-content {
+      flex-direction: column;
+      gap: 20px;
+   }
+
+   form {
+      width: 100vmin;
+   }
+
+   .bmi {
+      max-width: 100%;
+   }
+
+   .sub input {
+      width: 100%;
+   }
+}

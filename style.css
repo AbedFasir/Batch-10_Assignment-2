@@ -1,0 +1,503 @@
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+:root {
+   --primary-color: rgb(230, 83, 60);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+   background-color: #010101;
+   color: #f1f1f1;
+}
+
+.container {
+   width: 80%;
+   margin: 0 auto;
+   padding-top: 20px;
+}
+
+p {
+   color: rgba(255, 255, 255, 0.5);
+   font-size: 1rem;
+}
+
+nav h2 {
+   color: var(--primary-color);
+   font-size: 2rem;
+   font-style: italic;
+}
+
+nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.nav-links {
+   display: flex;  
+   border-radius: 30px;
+   border: .3px solid rgb(66, 66, 66);
+}
+
+.menu {
+   display: none;
+}
+
+.header-container {
+   background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+
+header nav a {
+   color: #f1f1f1;
+   text-decoration: none;
+   font-size: 1rem;
+   padding: 10px 25px;
+}
+
+#active {
+   background-color:  var(--primary-color);
+   border-radius: 30px;
+}
+
+.banner-container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 30px;
+}
+
+.banner-content h1 {
+   font-size: 4.4rem;
+   font-weight: 800;
+   line-height: 80px;
+}
+
+.banner-content p {
+   margin: 30px 0;
+}
+
+.banner-content {
+   max-width: 600px;
+}
+
+.banner-content button {
+   padding: 15px 25px;
+   background-color: transparent;
+   color: #f1f1f1;
+   font-weight: 700;
+   font-size: 1rem;
+   border: 1px solid floralwhite;
+   border-radius: 30px;
+   cursor: pointer;
+}
+
+.banner-content .join {
+   padding: 16px 26px;
+   background-color:  var(--primary-color);
+   border: none;
+   margin-right: 10px;
+}
+.banner-img {
+   max-width: 700px;
+   position: relative;
+}
+
+.banner-img span {
+   color: rgba(255, 255, 255, 0.5);
+}
+
+.shape {
+   font-family: 'Miama', sans-serif;
+   font-style: italic;
+   font-weight: 100;
+   font-size: 5.5rem;
+}
+
+.video {
+   position: absolute;
+   top: 110px;
+   right: -50px;
+   background: rgba(255, 255, 255, 0.1);
+   border-radius: 8px;
+   padding: 1rem;
+   backdrop-filter: blur(20px);
+}
+
+.video h2 {
+   font-size: 2.3rem;
+   font-weight: 900;
+   letter-spacing: 0.05rem;
+}
+
+.tutorial {
+   position: absolute;
+   bottom: 90px;
+   left: -90px;
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   background: rgba(255, 255, 255, 0.1);
+   border-radius: 8px;
+   padding: 1rem 1.3rem;
+   backdrop-filter: blur(20px);
+}
+
+.tut-content h3 {
+   font-size: 2rem;
+   font-weight: 800;
+}
+
+.box {
+   width: 40px;
+   height: 40px;
+   background-color: var(--primary-color);
+   border-radius: 50%;
+}
+
+.common-h{
+   font-size: 3rem;
+   font-weight: 800;
+   text-align: center;
+   margin-top: 80px;
+}
+
+.common-p {
+   max-width: 620px;
+   margin: 20px auto 60px;
+   text-align: center;
+}
+
+.habit-cards {
+   display: flex;
+   text-align: center;
+   justify-content: space-between;
+}
+
+.card {
+   max-width: 250px;
+}
+
+.habit-cards h5 {
+   font-size: 1.2rem;
+   margin-top: 20px;
+}
+
+.habit-cards p {
+   font-size: .9rem;
+   margin-top: 7px;
+}
+
+.habit-cards img {
+   border-radius: 50%;
+}
+
+.run-container {
+   margin: 100px 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgb(34, 34, 34);
+   padding: 40px 50px;
+   border-radius: 20px;
+}
+
+.run-content {
+   max-width: 450px;
+}
+
+.run-content h1 {
+   font-size: 3rem;
+   font-weight: 800;
+}
+
+.run-content p {
+   margin: 20px 0 40px;
+   letter-spacing: 0.05rem;
+}
+
+.run-content button {
+   font-size: 1.2rem;
+   font-weight: 700;
+   color: #f1f1f1;
+   background-color:  var(--primary-color);
+   border: none;
+   padding: 15px 40px;
+   border-radius: 30px;
+   cursor: pointer;
+} 
+
+.run-img {
+   max-width: 450px;
+}
+
+.run-img img {
+   width: 100%;
+   border-radius: 15px;
+}
+
+.calculator-container {
+   background: rgb(34, 34, 34);
+}
+
+.calculator-content {
+   padding: 3rem 1rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.chart h3 {
+   font-size: 2.2rem;
+}
+
+
+/* .bmi {
+   max-width: 55%;
+} */
+
+form {
+   max-width: 80vmin;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1.5vmin;
+}
+
+form input, #sex {
+   width: 38vmin;
+}
+
+form #activity {
+   width: 77.5vmin;
+   margin-bottom: 30px;
+}
+
+form .calculate-btn {
+   font-size: 1.2rem;
+   font-weight: 700;
+   color: #f1f1f1;
+   background-color:  var(--primary-color);
+   border: none;
+   padding: 15px 40px;
+   border-radius: 30px;
+   cursor: pointer;
+}
+
+form input, select {
+   padding: 3vmin;
+   color: rgba(255, 255, 255, 0.6);
+   background-color: rgba(255, 255, 255, 0.1);
+   border: none;
+   border-radius: 1vmin;
+}
+
+select option {
+   color: black;
+}
+
+
+.chart table, td, th {
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   border-collapse: collapse;
+   margin-top: 40px;
+}
+
+th, td {
+   padding: 14px 40px;
+}
+
+.chart td {
+   color: rgba(255, 255, 255, 0.5);
+}
+
+.bmi h3 {
+   font-size: 2.4rem;
+   margin-bottom: 10px;
+}
+
+.bmi p {
+   max-width: 450px;
+   margin-bottom: 30px;
+}
+
+.member-pics {
+   background-color: rgb(34, 34, 34);
+   border-radius: 20px;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   padding: 20px;
+   gap: 20px;
+}
+
+.member-pic {
+   max-width: 100%;
+   height: 300px;
+   background: url(images/trainer1.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   border-radius: 15px;
+   opacity: 0.7;
+}
+
+.member-content {
+   position: relative;
+}
+
+
+
+#trainer-2 {
+   background: url(images/trainer2.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+#trainer-3 {
+   background: url(images/trainer3.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+#trainer-4 {
+   background: url(images/trainer4.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+#trainer-5 {
+   background: url(images/trainer5.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+#trainer-6 {
+   background: url(images/trainer6.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.member-text {
+   position: absolute;
+   bottom: 20px;
+   left: 20px;
+
+}
+
+.member-text h3 {
+   font-size: 1.5rem;
+}
+
+.Offers {
+   margin: 4rem auto;
+}
+
+.offers-container {
+   background-color: rgba(255, 255, 255, 0.1);
+   padding: 6rem 1.5rem;
+   border-radius: 1rem;
+}
+
+.Offers h2{
+   font-size: 2.2rem;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.Offers h3 {
+   font-size: 1.6rem;
+   text-align: center;
+   margin: 10px auto 60px;
+}
+
+.sub {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.sub input {
+   width: 440px;
+   font-size: 1rem;
+   padding: 1rem;
+   border: none
+}
+
+.sub button {
+   font-size: 1rem;
+   padding: 1rem;
+   border: none;
+   background-color: var(--primary-color);
+   color: rgba(255, 255, 255);
+   font-weight: 600;
+}
+
+
+
+
+
+footer {
+   margin-top: 100px;
+   background-color: rgb(34, 34, 34);
+   padding: 50px 0;
+}
+
+.flex-container {
+   display: grid;
+   grid-template-columns: 500px repeat(2, 1fr);
+   gap: 100px;
+   align-items: center;
+   margin-bottom: 80px;
+}
+
+.footer-text h1 {
+   font-size: 4rem;
+   font-weight: 900;
+   font-style: italic;
+   color: var(--primary-color);
+   margin-bottom: 20px;
+}
+
+.footer-link h3 {
+   font-size: 2.3rem;
+   margin-bottom: 30px;
+}
+
+.footer-nav {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+.footer-nav a {
+   text-decoration: none;
+   color: rgb(143, 141, 141);
+   font-size: 1.3rem;
+}
+
+hr {
+   border: none;
+   border-bottom: 3px solid rgb(58, 57, 57);
+}
+
+.copy {
+   text-align: center;
+   margin: 40px 0 20px;
+   font-size: 1.4rem;
+}
+
+.hidden {
+   display: none;
+}
+
+
+
+
+
+
+
