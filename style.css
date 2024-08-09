@@ -426,7 +426,7 @@ th, td {
    font-size: 1rem;
    padding: 1rem;
    border: none;
-   border-radius: 5px 0 0 5px;
+   border-radius: 10px 0 0 10px;
 }
 
 .sub button {
@@ -436,6 +436,7 @@ th, td {
    background-color: var(--primary-color);
    color: rgba(255, 255, 255);
    font-weight: 600;
+   border-radius: 0 10px 10px 0;
 }
 
 
