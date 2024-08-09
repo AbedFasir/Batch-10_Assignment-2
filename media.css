@@ -67,6 +67,10 @@
       width: 100vmin;
    }
 
+   th, td {
+      
+   }
+
    .bmi {
       max-width: 100%;
    }
