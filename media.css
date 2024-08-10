@@ -78,4 +78,9 @@
    .sub input {
       width: 100%;
    }
+
+   .plans-container {
+      flex-direction: column;
+      gap: 2rem;
+   }
 }

@@ -198,7 +198,7 @@ header nav a {
 }
 
 .run-container {
-   margin: 100px 0;
+   margin: 100px 0 80px;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -262,7 +262,7 @@ header nav a {
 .plans-container {
    margin-top: 3rem;
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    align-items: center;
 }
 
